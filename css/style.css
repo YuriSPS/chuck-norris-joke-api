@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.chucknorris {
+    width: auto;
+}
+
+.d-flex {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex h2 {
+    padding-bottom: 30px;
+    font-size: 3.2em;
+}
+
+.d-flex p {
+    padding-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.btnJokes {
+    margin-top: 100px;
+    padding: 8px 20px;
+    font-size: 1.4em;
+    background: #000;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.joke {
+    margin-top: 50px;
+}
