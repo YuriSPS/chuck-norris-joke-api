@@ -1,4 +1,5 @@
-import {initJoke} from './module/joke.js';
+import Joke from './module/joke.js';
 
-// iniciando a função exportada
-initJoke();
+// iniciando a classe exportada
+const jokes = new Joke('https://api.chucknorris.io/jokes/random', '.btnJokes', '.joke');
+jokes.init();
